@@ -1,0 +1,51 @@
+.cursos {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  transition: 0.2s;
+  background: fixed url(https://wallpapercave.com/wp/wp3424217.jpg);
+  background-position-x: center;
+}
+
+.cursos li {
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: 120px 1px 120px 1px;
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  height: 350px;
+  margin: 1%;
+  padding: 0.5%;
+  text-align: center;
+  justify-content: center;
+  font-size: 2em;
+  text-decoration: #000;
+}
+
+.cursos li img {
+  height: 200px;
+  display: inline;
+  position: relative;
+}
+
+.cursos li a {
+  color: white;
+  font-family: 'Courier Prime', monospace;
+  transition: 0.2s;
+}
+
+.cursos li:hover {
+  border-color: rgb(4, 189, 81);
+  background-position-x: center;
+  background-size: 1000px;
+  color: black;
+
+}
+
+.cursos li a:hover {
+  color: rgb(4, 189, 81);
+  }

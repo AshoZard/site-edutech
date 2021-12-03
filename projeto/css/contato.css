@@ -1,0 +1,38 @@
+.contato_main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-size: 1.4em;
+  font-family: "Raleway", sans-serif;
+  background: url(https://cdn.discordapp.com/attachments/759474328868880454/916054099215138887/unknown.png);
+  color: white;
+}
+.contato_main a {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+  transition: 0.2s;
+}
+
+.contato_main a:hover {
+    color: rgb(4, 189, 81);
+}
+
+.mapa {
+  align-items: center;
+  justify-content: center;
+  width: 98%;
+  margin: 1%;
+  height: 500px;
+}
+
+.frase {
+    font-size: 2em;
+    margin-bottom: 0.6em;
+    transition: 0.2s;
+}
+
+.frase:hover {
+    color: rgb(4, 189, 81);
+    cursor: default;
+}
